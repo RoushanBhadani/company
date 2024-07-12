@@ -36,9 +36,11 @@ body {
 }
 
 .logo i h1 {
+
   cursor: pointer;
   color: rgb(0, 87, 0);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-style:normal;
 }
 
 .facebook,
@@ -126,7 +128,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   position: relative;
   cursor: pointer;
 }
@@ -175,9 +177,10 @@ body {
   color: white;
 }
 
-.card-main-header h6 {
-  font-family: 'Poppins';
-  font-weight: 200;
+.card-main-header h6 {  
+  font-style: normal;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 .card-slider-container {
@@ -225,8 +228,8 @@ body {
 }
 
 .card-head {
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 600;
   margin: 5px 0;
 }
 
@@ -234,6 +237,7 @@ body {
   font-size: 1rem;
   text-align: center;
   margin: 5px;
+  font-weight: 400;
 }
 
 .card-button {
@@ -286,9 +290,14 @@ body {
 }
 
 .feedback h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin: 1rem 0;
+  height: 10vh;
+  background-color: #003129;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .feedback-cards {
